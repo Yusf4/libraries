@@ -32,8 +32,8 @@ plt.show()
 plt.figure()
 plt.bar(['A','B','C'],[10,20,30])
 plt.show()
-X=[[1],[2],[3],[4],[5]]
-y=[1,4,9,16,25]
+X=np.array([[500],[1000],[1500],[2000],[2500]])
+y=np.array([150000, 300000, 450000, 600000, 750000])
 X_train,X_test,y_train,y_test=train_test_split(X,y,test_size=0.2)
 print("Training Features:",X_train)
 print("training labels:",y_train)
